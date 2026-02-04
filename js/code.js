@@ -4,9 +4,12 @@ function play() {
     const result = document.getElementById("result").value
 
     if (playerSelection === "") {
-        result.innerHTML = "Choose Heads or Tails"
-        return
+        result.innerHTML = "Select a side"
     }
 
-    
+    coin.src = assets/spin.gif
+    result.innerHTML = "Flipping coin..."
+
+
+
 }
